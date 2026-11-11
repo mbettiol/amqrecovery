@@ -1,0 +1,51 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Eclipse ###
+.metadata
+bin/
+
+### Log ###
+*.log
+logs/
+
+### OS ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Configurazioni esterne del batch (contengono credenziali) ###
+# file passati con --config=<file>: tenerli fuori dal repository
+/*.properties
+/config/
